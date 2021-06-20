@@ -1,9 +1,9 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["759724893557751828", "626384036222337026"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/a9SHDpD", //Support Server Link
+  SupportServer: "https://discord.gg/FKA5nEM2JU", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
@@ -21,7 +21,7 @@ module.exports = {
     id: "Main",
     host: "lava.link",
     port: 80,
-    pass: "youshallnotpass", 
+    pass: "musicbot", 
   },
   
   //Alternate Lavalink
