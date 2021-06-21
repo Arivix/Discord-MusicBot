@@ -5,7 +5,7 @@ module.exports = {
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/FKA5nEM2JU", //Support Server Link
   Token: process.env.Token || "ODU2MTc0Njg5NzUxNDAwNDU5.YM9M0A.aXA_4USreMZYiZ4gODsC6DHfw_E", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
+  ClientID: process.env.Discord_ClientID || "856174689751400459", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
